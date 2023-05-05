@@ -1,0 +1,35 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: hsl(212, 45%, 89%)
+  }
+
+  .main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  
+
+  .card{
+    background-color: white;
+    width: 200px;
+    height: 500px;
+  }
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
