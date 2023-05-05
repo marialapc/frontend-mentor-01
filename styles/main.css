@@ -1,0 +1,29 @@
+@import url(./card.css);
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightGray: hsl(212, 45%, 89%);
+  --GrayishBlue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+  --fontPrimary: "outfit";
+}
+
+@font-face {
+  font-family: "outfit";
+  src: url("../fonts/outfit.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--LightGray);
+  font-size: 16px;
+}
