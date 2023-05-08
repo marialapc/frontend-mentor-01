@@ -38,7 +38,7 @@ body {
 }
 
 @media all and (max-width: 480px) {
-body{
-  background-color: white;
-}
+  body {
+    background-color: white;
+  }
 }

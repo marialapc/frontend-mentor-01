@@ -41,7 +41,7 @@
 }
 
 @media all and (max-width: 480px) {
-  .card__text{
+  .card__text {
     width: 100%;
   }
 }
