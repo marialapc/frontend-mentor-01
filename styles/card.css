@@ -39,3 +39,9 @@
   font-weight: 400;
   color: var(--grayishBlue);
 }
+
+@media all and (max-width: 480px) {
+  .card__text{
+    width: 100%;
+  }
+}
